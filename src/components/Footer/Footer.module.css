@@ -6,3 +6,15 @@
   text-align: center;
 }
 
+.footer a {
+  color: inherit;
+}
+
+.backgroundColor {
+  background-color: hsl(195deg, 20%, 86%);
+  height: 40%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+}

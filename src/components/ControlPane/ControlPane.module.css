@@ -10,12 +10,19 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  overflow: scroll;
+  white-space: nowrap;
+  position: relative;
+  max-width: 450px;
 }
 
 .title {
   margin: 0;
   /* Optical centering */
-  margin-bottom: -4px;
+  margin-bottom: 16px;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .metadata {

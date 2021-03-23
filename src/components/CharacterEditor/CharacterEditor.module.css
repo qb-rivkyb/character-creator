@@ -4,10 +4,14 @@
 }
 
 .maxWidthWrapper {
+  max-width: 1024px;
+  position: relative;
+  isolation: isolate;
 }
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -24,7 +28,21 @@
 }
 
 .characterWrapper {
+  width: 500px;
+  position: fixed;
+  right: 0;
+  top: 128px;
 }
 
 .controlColumn {
+  max-width: 50%;
+}
+
+@media (min-width: 425px) {
+  .controlColumn {
+    max-width: fit-content;
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
 }
